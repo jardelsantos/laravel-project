@@ -90,7 +90,7 @@ class PerfilController extends Controller
             'detail' => 'required'
         ]);
 
-        $perfil->update($storeData);-
+        $perfil->update($storeData);
 
         return redirect('/perfil')
         ->with('success', 'Perfil editado com sucesso.');
